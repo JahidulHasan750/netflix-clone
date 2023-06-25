@@ -1,0 +1,44 @@
+[debug] [2023-06-22T19:51:36.220Z] ----------------------------------------------------------------------
+[debug] [2023-06-22T19:51:36.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-22T19:51:36.222Z] CLI Version:   12.4.0
+[debug] [2023-06-22T19:51:36.222Z] Platform:      win32
+[debug] [2023-06-22T19:51:36.223Z] Node Version:  v18.15.0
+[debug] [2023-06-22T19:51:36.223Z] Time:          Fri Jun 23 2023 01:51:36 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-06-22T19:51:36.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-22T19:51:36.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-22T19:51:36.287Z] > authorizing via signed-in user (jahidulbracu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\jahid
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-22T19:51:41.322Z] Using project from CLI flag: auth-91cee
+[debug] [2023-06-22T19:51:41.324Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/auth-91cee [none]
+[debug] [2023-06-22T19:51:42.015Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/auth-91cee 200
+[debug] [2023-06-22T19:51:42.015Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/auth-91cee {"projectId":"auth-91cee","projectNumber":"496140067121","displayName":"google-auth","name":"projects/auth-91cee","resources":{"hostingSite":"auth-91cee","storageBucket":"auth-91cee.appspot.com","locationId":"asia-southeast1"},"state":"DELETED","etag":"1_9f9a55ab-827f-4eaf-8c33-a94e3a29efa4"}
+[info] i  Using project auth-91cee (google-auth) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
